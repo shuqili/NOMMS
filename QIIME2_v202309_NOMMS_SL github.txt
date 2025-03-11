@@ -1,0 +1,226 @@
+
+
+#1 check conda and qiime2 version
+$ conda -V   
+23.11.0
+$ conda activate qiime2-amplicon-2023.9
+
+#2 get organized 
+$ mkdir 00-library/ 01-raw/ 02-demultiplex/ 03-features/ 04-alignment/ 05-alpha/ 07-taxa/
+
+
+#3 Import data
+$ qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path 01-raw/gzip \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path 02-demultiplex/demux-paired-end.qza
+
+
+#4. View the quality report
+$ qiime demux summarize \
+  --i-data 02-demultiplex/demux-paired-end.qza \
+  --o-visualization 02-demultiplex/demux-summary.qzv \
+
+#5. Denoise the data and and quality control steps.
+
+$ qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs 02-demultiplex/demux-paired-end.qza \
+  --o-table 03-features/unfiltered-paired-table-2 \
+  --o-representative-sequences 03-features/unfiltered-paired-rep-seqs-2 \  
+  --p-trunc-len-f 280 \  
+  --p-trunc-len-r 200 \ 
+  --o-denoising-stats 03-features/denoising_stats-paired-2  \
+  --p-min-overlap 50
+
+$ qiime metadata tabulate \
+	--m-input-file 03-features/denoising_stats.qza \
+	--o-visualization 03-features/denoising_stats.qzv \
+
+
+$ mv 03-features/table.qza 03-features/unfiltered-paired-table.qza
+$ mv 03-features/representative_sequences.qza 03-features/unfiltered-paired-rep-seqs.qza
+
+#. Quality control for samples and sequences.
+
+#filter samples based on specific projects "Keep='Yes'" 
+	#skipped due to "Keep" column not found in the map.
+
+$	qiime feature-table summarize \
+	  --i-table 03-features/unfiltered-paired-table.qza \
+	  --o-visualization 03-features/unfiltered-with-blanks.qzv \
+	  --m-sample-metadata-file map-CL04-NOMMS.txt
+
+$	qiime feature-table filter-samples   \
+	  --i-table 03-features/unfiltered-paired-table.qza    \
+	  --m-metadata-file map-CL04-NOMMS.txt  \
+	  --p-where "Keep='Yes'"   \
+	  --o-filtered-table 03-features/unfiltered-table-keep.qza
+
+$	qiime feature-table summarize \
+	  --i-table 03-features/unfiltered-keep.qza \
+	  --o-visualization 03-features/unfiltered-table-keep.qzv \
+	  --m-sample-metadata-file map-CL04-NOMMS.txt
+
+
+# filter out mitochondria, chloroplasts, and other contaminating bacterial components by examining the taxonomy.
+	
+	## Examine the taxonomy of rep seqs.
+	## 00-classifier/qiime2-202208-silva-138.1-ssu-nr99-515f-926r-classifier.qza still works as silva_v138.1 is still the up-to-date database and sklearn version stays same from qiime2_202208 to qiime2_202309
+#	qiime feature-classifier classify-sklearn \
+		--i-classifier ~/Dropbox\ \(Partners\ HealthCare\)/00-classifier/qiime2-202208-silva-138.1-ssu-nr99-515f-926r-classifier.qza \
+		--i-reads 03-features/unfiltered-paired-rep-seqs.qza \
+		--o-classification 07-taxa/taxonomy.qza
+
+$ qiime feature-classifier classify-sklearn \
+	--i-classifier  ~/Dropbox\ \(Partners\ HealthCare\)/00-classifier/db_Silva_138.1_taxonomy_weighted_classifiers/full-length-human-oral-classifier.qza \
+	--i-reads 03-features/unfiltered-paired-rep-seqs.qza \
+	--o-classification 07-taxa/taxonomy-full-length-human-oral-classifier.qza
+
+
+$	qiime metadata tabulate \
+	  --m-input-file 07-taxa/taxonomy.qza \
+	  --o-visualization 07-taxa/taxonomy.qzv
+
+
+	## Plot taxa bar plots. Look for common contaminants in blank samples.
+$	qiime taxa barplot \
+	    --i-table 03-features/unfiltered-paired-table.qza \
+	    --i-taxonomy 07-taxa/taxonomy.qza \
+	    --m-metadata-file map-CL04-NOMMS.txt \
+	    --o-visualization 07-taxa/unfiltered-table-bar-plots.qzv    
+
+
+
+	# FILTER @1 CONTAMINANT TAXA & SummarizeTable, 2024-02-20: other taxa found in the Blanks were not treated and filtered as contaminants due to their differential distribution in samples of various groups.
+$	qiime taxa filter-table \
+	  --i-table 03-features/unfiltered-paired-table.qza \
+	  --i-taxonomy 07-taxa/taxonomy.qza \
+	  --p-exclude mitochondria,chloroplast \
+	  --p-include c__ \
+	  --o-filtered-table 03-features/1_no-contam-table.qza
+$	qiime feature-table summarize \
+	  --i-table 03-features/1_no-contam-table.qza \
+	  --o-visualization 03-features/1_no-contam-table.qzv \
+	  --m-sample-metadata-file map-CL04-NOMMS.txt
+
+$	qiime feature-table group \
+	--i-table 03-features/1_no-contam-table.qza \
+	--p-axis sample --m-metadata-file map-CL04-NOMMS.txt \
+	--m-metadata-column MergeRepeats \
+	--p-mode sum \
+	--o-grouped-table 03-features/2-merged-table.qza
+
+	# Caution: sample ID updated to MergeRepeats after merging.
+
+	# FILTER @2 feature frequencies and min 2 sample distributions.
+$ 	qiime feature-table filter-features \
+		--i-table 03-features/2-merged-table.qza \
+		--p-min-frequency 10 --p-min-samples 2  \
+		--o-filtered-table 3-feature-frequency-filtered-table.qza
+
+	# FILTER @3 filter samples based on minimal frequencies.
+
+$	qiime feature-table filter-samples \
+		--i-table 03-features/3-feature-frequency-filtered-table.qza \
+		--p-min-frequency 1000 \
+		--o-filtered-table 03-features/4-within-sample-total-frequency-filtered-table.qza
+
+$ 	cp 03-features-oldID/5_filtered-table.qza 03-features-oldID/filtered-table.qza
+
+
+## Summarize filtered-table using metadata with updated sample_ID (MergeRepeats)
+	$ qiime feature-table summarize \
+		--i-table 03-features/filtered-table.qza \
+		--o-visualization 03-features/filtered-table.qzv \
+		--m-sample-metadata-file metadata-CL04-NOMMS-v4.txt \
+
+	$ qiime feature-table filter-seqs \
+		--i-data 03-features/unfiltered-paired-rep-seqs.qza \
+		--i-table 03-features/filtered-table.qza \
+		--o-filtered-data 03-features/filtered-rep-seq.qza \
+
+	$  qiime feature-table tabulate-seqs \
+		--i-data 03-features/filtered-rep-seq.qza \
+		--o-visualization 03-features/filtered-rep-seq.qzv \ 
+
+#6 Phylogeny reconstruction
+
+	$ qiime phylogeny align-to-tree-mafft-fasttree \
+		--i-sequences 03-features/filtered-rep-seq.qza \
+		--output-dir 04-alignments \
+
+#7 Alpha and beta diversities.
+$ qiime diversity alpha-rarefaction  \
+	  --i-table 03-features/filtered-table.qza \
+	  --i-phylogeny 04-alignment/rooted_tree.qza \
+	  --p-max-depth 7000 \
+	  --m-metadata-file metadata-CL04-NOMMS.txt \
+	  --o-visualization alpha-rarefaction.qzv
+
+
+$ qiime diversity core-metrics-phylogenetic \
+  --i-phylogeny 04-alignment-fasttree/rooted_tree.qza \
+  --i-table 03-features/filtered-table.qza \
+  --p-sampling-depth 1000 \
+  --m-metadata-file metadata-CL04-NOMMS-SLsimplified.txt \
+  --output-dir 06-diversity
+
+
+#Separate files for alpha and beta diversity into 2 separate folders.
+
+
+# test whether the Anatomical location (which we qualitatively identified as a major separator in PCoA space) is associated with significant differences in weighted and unweighted UniFrac distance.
+
+
+
+qiime diversity beta-group-significance 
+	--i-distance-matrix 06-beta/unweighted_unifrac_distance_matrix.qza --m-metadata-file metadata-CL04-NOMMS-20221114.txt 
+	--m-metadata-column ANostrilaThroatomical_LocaThroatioNostril 
+	--o-visualization 06-beta/unweighted_unifrac_AnatomicaLocation_significance.qzv
+
+
+
+
+qiime diversity beta-group-significance 
+	--i-distance-matrix 06-beta/weighted_unifrac_distance_matrix.qza --m-metadata-file metadata-CL04-NOMMS-20221114.txt 
+	--m-metadata-column ANostrilaThroatomical_LocaThroatioNostril 
+	--o-visualization 06-beta/weighted_unifrac_AnatomicaLocation_significance.qzv
+
+# Ruling out dispersion effect
+qiime diversity beta-group-significance 
+	--i-distance-matrix 06-beta/weighted_unifrac_distance_matrix.qza --m-metadata-file metadata-CL04-NOMMS-20221114.txt 
+	--m-metadata-column ANostrilaThroatomical_LocaThroatioNostril 
+	--o-visualization 06-beta/weighted_unifrac_AnatomicaLocation_significance_permdisp.qzv 
+	--p-method permdisp
+
+
+
+# Test whether the Disease Status is associated with significant differences in terms of data dispersion in weighted and unweighted UniFrac Distances.
+
+
+qiime diversity beta-group-significance 
+	--i-distance-matrix 06-beta/weighted_unifrac_distance_matrix.qza --m-metadata-file metadata-CL04-NOMMS-20221114.txt 
+	--m-metadata-column DiseaseStatus 
+	--o-visualization 06-beta/weighted_unifrac_diseaseStat_significance_permdisp.qzv --p-method permdisp
+
+qiime diversity beta-group-significance 
+	--i-distance-matrix 06-beta/unweighted_unifrac_distance_matrix.qza --m-metadata-file metadata-CL04-NOMMS-20221114.txt 
+	--m-metadata-column DiseaseStatus 
+	--o-visualization 06-beta/unweighted_unifrac_diseaseStat_significance_permdisp.qzv 
+	--p-method permdisp
+
+# adonis: pre-partition anatomical location and test difference due to disease status, no interaction term involved.
+
+qiime diversity adonis 
+	--i-distance-matrix 06-beta/unweighted_unifrac_distance_matrix.qza --m-metadata-file metadata-CL04-NOMMS-20221114.txt 
+	--o-visualization 06-beta/unweighted_unifrac_adonis_AnatomicaLocation_plus_DiseaseStat.qzv 
+	--p-formula ANostrilaThroatomical_LocaThroatioNostril+DiseaseStatus
+
+
+
+
+
+
+
+
