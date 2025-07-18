@@ -1,0 +1,321 @@
+sample_name	SubjectID	Anatomical_Location	DiseaseStatusOracle_abbrev	excluded	Treated	age	sex	bmi	race	ethnicity	Fingolimod	DMT_v2	EDSS_at_NOMMS_donation	disease_duration_years	smoking_exposure	smoking	smoking_YN	dental_procedure_simplified	dental_notes	oral_disease_simplified	oral_disease_notes	oral_hygiene_cumsum_score	vit_d_yn	vit_d_weekly_amount_lower_limit	vit_d_weekly_amount_upper_limit	allergy_symptoms_today	chronic_sinusitis_yn	autoimm_disease_yn	rui_last_attack	asthma_last_attack
+NL102-J200098-CTL	J200098	N	HC	no	HC	30.2	M	18.7	More than one race	Not hispanic or latino	NA	HC	NA	NA	1	Cigars_only	1	crowns	crowns	dental_caries	dental_caries	11	0	NA	NA	0	0	0	2	0
+GL103-J200098-CTL	J200098	G	HC	no	HC	30.2	M	18.7	More than one race	Not hispanic or latino	NA	HC	NA	NA	1	Cigars_only	1	crowns	crowns	dental_caries	dental_caries	11	0	NA	NA	0	0	0	2	0
+T2103-J200098-CTL	J200098	T	HC	no	HC	30.2	M	18.7	More than one race	Not hispanic or latino	NA	HC	NA	NA	1	Cigars_only	1	crowns	crowns	dental_caries	dental_caries	11	0	NA	NA	0	0	0	2	0
+GL017-J200020-MS	J200020	G	RRMS	no	Treated	41	M	33.4	White	Not hispanic or latino	N	Interferon	1.5	13	1	Cigarettes_Tobacco	1	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	dental_abscess	dental_abscess	9	1	1001	2000	0	0	0	2	0
+T2017-J200020-MS	J200020	T	RRMS	no	Treated	41	M	33.4	White	Not hispanic or latino	N	Interferon	1.5	13	1	Cigarettes_Tobacco	1	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	dental_abscess	dental_abscess	9	1	1001	2000	0	0	0	2	0
+NL017-J200020-MS	J200020	N	RRMS	no	Treated	41	M	33.4	White	Not hispanic or latino	N	Interferon	1.5	13	1	Cigarettes_Tobacco	1	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	dental_abscess	dental_abscess	9	1	1001	2000	0	0	0	2	0
+NL073-J200056-CTL	J200056	N	HC	no	HC	46.7	M	22.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"extractions,fillings,root_canals"	dental_caries	dental_caries	10	1	7007	14000	0	0	0	1	0
+GL106-J200106-MS	J200106	G	Prog MS	no	Treated	45.4	M	45.6	White	Not hispanic or latino	N	anti-CD20	7.5	17.4	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	periodontal_disease	periodontal_disease	9	1	14007	35000	0	0	0	1	0
+T2106-J200106-MS	J200106	T	Prog MS	no	Treated	45.4	M	45.6	White	Not hispanic or latino	N	anti-CD20	7.5	17.4	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	periodontal_disease	periodontal_disease	9	1	14007	35000	0	0	0	1	0
+NL007-J200007-CTL	J200007	N	HC	no	HC	42.5	F	27.1	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,teeth_whitening"	gingivitis	gingivitis	10	0	NA	NA	0	1	0	0	0
+NL029-J200024-CTL	J200024	N	HC	no	HC	64.5	M	28.8	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"extractions,fillings"	none	none	12	0	NA	NA	0	0	0	2	0
+NL052-J200044-CTL	J200044	N	HC	no	HC	40	M	24.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	2	0	NA	NA	0	0	0	1	0
+GL011-J200012-MS	J200012	G	RRMS	no	Treated	57.9	F	29.6	White	Not hispanic or latino	N	DMF	1	24.9	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,fillings,gum_surgery,root_canals"	dental_abscess	dental_abscess	12	1	14007	35000	0	0	0	1	0
+NL076-J200071-CTL	J200071	N	HC	no	HC	47.2	M	36	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	8	0	NA	NA	0	0	0	4	0
+T2011-J200012-MS	J200012	T	RRMS	no	Treated	57.9	F	29.6	White	Not hispanic or latino	N	DMF	1	24.9	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,fillings,gum_surgery,root_canals"	dental_abscess	dental_abscess	12	1	14007	35000	0	0	0	1	0
+GL037-J200039-MS	J200039	G	RRMS	no	Treated	31	F	26.6	White	Not hispanic or latino	N	DMF	1	7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	13	0	NA	NA	0	0	0	2	0
+T2037-J200039-MS	J200039	T	RRMS	no	Treated	31	F	26.6	White	Not hispanic or latino	N	DMF	1	7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	13	0	NA	NA	0	0	0	2	0
+GL043-J200049-MS	J200049	G	RRMS	no	Treated	28.3	M	25.8	White	Not hispanic or latino	N	DMF	2	2.3	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,sealants,teeth_whitening,veneers"	none	none	10	1	14007	35000	0	0	0	1	0
+T2043-J200049-MS	J200049	T	RRMS	no	Treated	28.3	M	25.8	White	Not hispanic or latino	N	DMF	2	2.3	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,sealants,teeth_whitening,veneers"	none	none	10	1	14007	35000	0	0	0	1	0
+GL090-J200092-MS	J200092	G	RRMS	no	Treated	48.5	F	51.3	White	Not hispanic or latino	N	DMF	3	7.5	1	Cigarettes_only	1	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	8	1	NA	NA	1	0	0	2	0
+T2090-J200092-MS	J200092	T	RRMS	no	Treated	48.5	F	51.3	White	Not hispanic or latino	N	DMF	3	7.5	1	Cigarettes_only	1	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	8	1	NA	NA	1	0	0	2	0
+GL46-J200053-MS	J200053	G	RRMS	no	Treated	57.6	F	34.5	White	Not hispanic or latino	N	glatiramer acetate	2.5	6.6	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals,sealants"	none	none	12	1	4004	8000	0	0	0	2	0
+T2046-J200053-MS	J200053	T	RRMS	no	Treated	57.6	F	34.5	White	Not hispanic or latino	N	glatiramer acetate	2.5	6.6	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals,sealants"	none	none	12	1	4004	8000	0	0	0	2	0
+GL038-J200041-MS	J200041	G	RRMS	no	Treated	37.7	F	34.7	White	Not hispanic or latino	N	Interferon	1	22.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	10	1	NA	NA	0	0	0	2	0
+T2038-J200041-MS	J200041	T	RRMS	no	Treated	37.7	F	34.7	White	Not hispanic or latino	N	Interferon	1	22.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	10	1	NA	NA	0	0	0	2	0
+GL107-J200107-MS	J200107	G	Prog MS	no	Treated	63	F	17.5	White	Not hispanic or latino	N	Methotrexate	6.5	18	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,fillings,oral_surgery,root_canals"	gingivitis	gingivitis	10	1	7007	14000	0	1	1	3	1
+NL107-J200107-MS	J200107	N	Prog MS	no	Treated	63	F	17.5	White	Not hispanic or latino	N	Methotrexate	6.5	18	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,fillings,oral_surgery,root_canals"	gingivitis	gingivitis	10	1	7007	14000	0	1	1	3	1
+T2107-J200107-MS	J200107	T	Prog MS	no	Treated	63	F	17.5	White	Not hispanic or latino	N	Methotrexate	6.5	18	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,fillings,oral_surgery,root_canals"	gingivitis	gingivitis	10	1	7007	14000	0	1	1	3	1
+GL109-J200109-MS	J200109	G	Prog MS	no	Treated	54.9	F	18.7	White	Not hispanic or latino	N	mycophenolate mofetil	6	41.9	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,extractions,fillings,gum_surgery,root_canals"	> 1 oral disease	"gingivitis,periodontal_disease"	14	1	14007	35000	0	0	0	2	0
+NL109-J200109-MS	J200109	N	Prog MS	no	Treated	54.9	F	18.7	White	Not hispanic or latino	N	mycophenolate mofetil	6	41.9	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,extractions,fillings,gum_surgery,root_canals"	> 1 oral disease	"gingivitis,periodontal_disease"	14	1	14007	35000	0	0	0	2	0
+T2109-J200109-MS	J200109	T	Prog MS	no	Treated	54.9	F	18.7	White	Not hispanic or latino	N	mycophenolate mofetil	6	41.9	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,extractions,fillings,gum_surgery,root_canals"	> 1 oral disease	"gingivitis,periodontal_disease"	14	1	14007	35000	0	0	0	2	0
+NL019-J200023-MS	J200023	N	Prog MS	no	UNTREATED	62.7	F	29	White	Not hispanic or latino	NA	Untreated	6	18.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	10	1	7007	14000	0	0	0	2	0
+GL045-J200051-MS	J200051	G	RRMS	no	Treated	40.6	F	17.4	White	Not hispanic or latino	N	Natalizumab	1.5	9.6	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,veneers"	none	none	10	1	7007	14000	0	0	0	2	0
+T2045-J200051-MS	J200051	T	RRMS	no	Treated	40.6	F	17.4	White	Not hispanic or latino	N	Natalizumab	1.5	9.6	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,veneers"	none	none	10	1	7007	14000	0	0	0	2	0
+GL065-J200068-MS	J200068	G	RRMS	no	Treated	47.1	F	34.2	White	Not hispanic or latino	N	Natalizumab	1	16.1	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	16	1	10005	25000	0	0	0	1	0
+T2065-J200068-MS	J200068	T	RRMS	no	Treated	47.1	F	34.2	White	Not hispanic or latino	N	Natalizumab	1	16.1	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	16	1	10005	25000	0	0	0	1	0
+NL106-J200106-MS	J200106	N	Prog MS	no	Treated	45.4	M	45.6	White	Not hispanic or latino	N	anti-CD20	7.5	17.4	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	periodontal_disease	periodontal_disease	9	1	14007	35000	0	0	0	1	0
+GL012-J200013-MS	J200013	G	RRMS	no	Treated	40.7	F	39.1	White	Not hispanic or latino	Y	Fingolimod	2	13.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,root_canals"	none	none	9	1	NA	NA	0	1	0	0	1
+T2012-J200013-MS	J200013	T	RRMS	no	Treated	40.7	F	39.1	White	Not hispanic or latino	Y	Fingolimod	2	13.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,root_canals"	none	none	9	1	NA	NA	0	1	0	0	1
+GL060-J200062-MS	J200062	G	RRMS	no	Treated	55.3	M	27.3	White	Not hispanic or latino	Y	Fingolimod	3	35.3	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery,teeth_whitening"	none	none	8	1	0	1400	0	0	0	2	0
+T2060-J200062-MS	J200062	T	RRMS	no	Treated	55.3	M	27.3	White	Not hispanic or latino	Y	Fingolimod	3	35.3	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery,teeth_whitening"	none	none	8	1	0	1400	0	0	0	2	0
+GL068-J200072-MS	J200072	G	RRMS	no	Treated	28.9	F	22.9	White	Not hispanic or latino	Y	Fingolimod	0	1.9	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,root_canals,teeth_whitening"	gingivitis	gingivitis	7	1	7007	14000	0	0	0	3	0
+T2068-J200072-MS	J200072	T	RRMS	no	Treated	28.9	F	22.9	White	Not hispanic or latino	Y	Fingolimod	0	1.9	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,root_canals,teeth_whitening"	gingivitis	gingivitis	7	1	7007	14000	0	0	0	3	0
+NL011-J200012-MS	J200012	N	RRMS	no	Treated	57.9	F	29.6	White	Not hispanic or latino	N	DMF	1	24.9	1	Cigarettes_only	1	> 1 dental procedure	"bridges,crowns,fillings,gum_surgery,root_canals"	dental_abscess	dental_abscess	12	1	14007	35000	0	0	0	1	0
+NL068-J200072-MS	J200072	N	RRMS	no	Treated	28.9	F	22.9	White	Not hispanic or latino	Y	Fingolimod	0	1.9	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,root_canals,teeth_whitening"	gingivitis	gingivitis	7	1	7007	14000	0	0	0	3	0
+NL088-J200090-MS	J200090	N	RRMS	no	UNTREATED	49.9	F	26.9	More than one race	Hispanic or latino	NA	Untreated	1.5	8.9	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,root_canals"	none	none	10	1	2002	4000	1	0	0	2	0
+GL007-J200007-CTL	J200007	G	HC	no	HC	42.5	F	27.1	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,teeth_whitening"	gingivitis	gingivitis	10	0	NA	NA	0	1	0	0	0
+NL037-J200039-MS	J200039	N	RRMS	no	Treated	31	F	26.6	White	Not hispanic or latino	N	DMF	1	7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	13	0	NA	NA	0	0	0	2	0
+T2007-J200007-CTL	J200007	T	HC	no	HC	42.5	F	27.1	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,teeth_whitening"	gingivitis	gingivitis	10	0	NA	NA	0	1	0	0	0
+NL090-J200092-MS	J200092	N	RRMS	no	Treated	48.5	F	51.3	White	Not hispanic or latino	N	DMF	3	7.5	1	Cigarettes_only	1	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	8	1	NA	NA	1	0	0	2	0
+NL046-J200053-MS	J200053	N	RRMS	no	Treated	57.6	F	34.5	White	Not hispanic or latino	N	glatiramer acetate	2.5	6.6	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals,sealants"	none	none	12	1	4004	8000	0	0	0	2	0
+NL038-J200041-MS	J200041	N	RRMS	no	Treated	37.7	F	34.7	White	Not hispanic or latino	N	Interferon	1	22.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	10	1	NA	NA	0	0	0	2	0
+NL045-J200051-MS	J200051	N	RRMS	no	Treated	40.6	F	17.4	White	Not hispanic or latino	N	Natalizumab	1.5	9.6	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,veneers"	none	none	10	1	7007	14000	0	0	0	2	0
+NL065-J200068-MS	J200068	N	RRMS	no	Treated	47.1	F	34.2	White	Not hispanic or latino	N	Natalizumab	1	16.1	1	Cigarettes_only	1	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	16	1	10005	25000	0	0	0	1	0
+GL029-J200024-CTL	J200024	G	HC	no	HC	64.5	M	28.8	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"extractions,fillings"	none	none	12	0	NA	NA	0	0	0	2	0
+NL012-J200013-MS	J200013	N	RRMS	no	Treated	40.7	F	39.1	White	Not hispanic or latino	Y	Fingolimod	2	13.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,root_canals"	none	none	9	1	NA	NA	0	1	0	0	1
+T2029-J200024-CTL	J200024	T	HC	no	HC	64.5	M	28.8	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"extractions,fillings"	none	none	12	0	NA	NA	0	0	0	2	0
+NL043-J200049-MS	J200049	N	RRMS	no	Treated	28.3	M	25.8	White	Not hispanic or latino	N	DMF	2	2.3	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,sealants,teeth_whitening,veneers"	none	none	10	1	14007	35000	0	0	0	1	0
+NL060-J200062-MS	J200062	N	RRMS	no	Treated	55.3	M	27.3	White	Not hispanic or latino	Y	Fingolimod	3	35.3	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery,teeth_whitening"	none	none	8	1	0	1400	0	0	0	2	0
+GL052-J200044-CTL	J200044	G	HC	no	HC	40	M	24.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	2	0	NA	NA	0	0	0	1	0
+T2052-J200044-CTL	J200044	T	HC	no	HC	40	M	24.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	2	0	NA	NA	0	0	0	1	0
+GL073-J200056-CTL	J200056	G	HC	no	HC	46.7	M	22.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"extractions,fillings,root_canals"	dental_caries	dental_caries	10	1	7007	14000	0	0	0	1	0
+T2073-J200056-CTL	J200056	T	HC	no	HC	46.7	M	22.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"extractions,fillings,root_canals"	dental_caries	dental_caries	10	1	7007	14000	0	0	0	1	0
+GL076-J200071-CTL	J200071	G	HC	no	HC	47.2	M	36	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	8	0	NA	NA	0	0	0	4	0
+T2076-J200071-CTL	J200071	T	HC	no	HC	47.2	M	36	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	8	0	NA	NA	0	0	0	4	0
+GL019-J200023-MS	J200023	G	Prog MS	no	UNTREATED	62.7	F	29	White	Not hispanic or latino	NA	Untreated	6	18.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	10	1	7007	14000	0	0	0	2	0
+T2019-J200023-MS	J200023	T	Prog MS	no	UNTREATED	62.7	F	29	White	Not hispanic or latino	NA	Untreated	6	18.7	1	Cigarettes_only	1	> 1 dental procedure	"fillings,oral_surgery"	none	none	10	1	7007	14000	0	0	0	2	0
+GL088-J200090-MS	J200090	G	RRMS	no	UNTREATED	49.9	F	26.9	More than one race	Hispanic or latino	NA	Untreated	1.5	8.9	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,root_canals"	none	none	10	1	2002	4000	1	0	0	2	0
+T2088-J200090-MS	J200090	T	RRMS	no	UNTREATED	49.9	F	26.9	More than one race	Hispanic or latino	NA	Untreated	1.5	8.9	1	Cigarettes_only	1	> 1 dental procedure	"crowns,oral_surgery,root_canals"	none	none	10	1	2002	4000	1	0	0	2	0
+NL101-J200096-CTL	J200096	N	HC	no	HC	41	F	22.7	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	crowns	crowns	none	none	7	0	NA	NA	0	0	0	2	0
+GL059-J200061-MS	J200061	G	RRMS	no	Treated	38	F	23.4	White	Not hispanic or latino	N	DMF	1.5	1	1	Cigarettes_only	1	crowns	crowns	none	none	14	1	NA	NA	0	0	0	0	0
+T2059-J200061-MS	J200061	T	RRMS	no	Treated	38	F	23.4	White	Not hispanic or latino	N	DMF	1.5	1	1	Cigarettes_only	1	crowns	crowns	none	none	14	1	NA	NA	0	0	0	0	0
+NL059-J200061-MS	J200061	N	RRMS	no	Treated	38	F	23.4	White	Not hispanic or latino	N	DMF	1.5	1	1	Cigarettes_only	1	crowns	crowns	none	none	14	1	NA	NA	0	0	0	0	0
+GL101-J200096-CTL	J200096	G	HC	no	HC	41	F	22.7	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	crowns	crowns	none	none	7	0	NA	NA	0	0	0	2	0
+T2101-J200096-CTL	J200096	T	HC	no	HC	41	F	22.7	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	crowns	crowns	none	none	7	0	NA	NA	0	0	0	2	0
+NL036-J200038-MS	J200038	N	Prog MS	no	Treated	56.7	F	29.1	White	Not hispanic or latino	N	Natalizumab	7	24.7	1	Cigarettes_only	1	dentures	dentures	none	none	8	0	NA	NA	0	0	0	2	0
+GL036-J200038-MS	J200038	G	Prog MS	no	Treated	56.7	F	29.1	White	Not hispanic or latino	N	Natalizumab	7	24.7	1	Cigarettes_only	1	dentures	dentures	none	none	8	0	NA	NA	0	0	0	2	0
+T2036-J200038-MS	J200038	T	Prog MS	no	Treated	56.7	F	29.1	White	Not hispanic or latino	N	Natalizumab	7	24.7	1	Cigarettes_only	1	dentures	dentures	none	none	8	0	NA	NA	0	0	0	2	0
+NL086-J200088-MS	J200088	N	RRMS	no	Treated	54.6	F	36.7	White	Not hispanic or latino	N	Teriflunomide	2.5	7.6	1	Cigarettes_only	1	fillings	fillings	gingivitis	gingivitis	13	1	7007	14000	0	0	1	2	0
+GL064-J200067-MS	J200067	G	RRMS	no	Treated	25.7	M	17.2	White	Not hispanic or latino	N	anti-CD20	2.5	6.7	1	Cigarettes_only	1	fillings	fillings	none	none	10	0	NA	NA	0	0	0	2	0
+T2064-J200067-MS	J200067	T	RRMS	no	Treated	25.7	M	17.2	White	Not hispanic or latino	N	anti-CD20	2.5	6.7	1	Cigarettes_only	1	fillings	fillings	none	none	10	0	NA	NA	0	0	0	2	0
+GL087-J200089-MS	J200089	G	RRMS	no	Treated	48.6	F	18.1	White	Not hispanic or latino	N	anti-CD20	3.5	14.6	1	Cigarettes_only	1	fillings	fillings	none	none	12	1	7007	14000	0	0	0	0	0
+T2087-J200089-MS	J200089	T	RRMS	no	Treated	48.6	F	18.1	White	Not hispanic or latino	N	anti-CD20	3.5	14.6	1	Cigarettes_only	1	fillings	fillings	none	none	12	1	7007	14000	0	0	0	0	0
+GL044-J200050-MS	J200050	G	RRMS	no	Treated	39.3	F	39.1	White	Not hispanic or latino	N	DMF	2	6.3	1	Cigarettes_only	1	fillings	fillings	none	none	11	1	14007	35000	0	0	0	1	1
+T2044-J200050-MS	J200050	T	RRMS	no	Treated	39.3	F	39.1	White	Not hispanic or latino	N	DMF	2	6.3	1	Cigarettes_only	1	fillings	fillings	none	none	11	1	14007	35000	0	0	0	1	1
+GL066-J200069-MS	J200069	G	RRMS	no	Treated	39.1	F	47.6	White	Not hispanic or latino	N	DMF	3	15.1	1	Cigarettes_only	1	fillings	fillings	none	none	10	1	7007	14000	0	0	1	2	0
+T2066-J200069-MS	J200069	T	RRMS	no	Treated	39.1	F	47.6	White	Not hispanic or latino	N	DMF	3	15.1	1	Cigarettes_only	1	fillings	fillings	none	none	10	1	7007	14000	0	0	1	2	0
+GL041-J200047-MS	J200047	G	RRMS	no	Treated	35.3	M	45.8	Unknown or not reported	Hispanic or latino	N	Teriflunomide	2	19.3	1	Cigarettes_only	1	fillings	fillings	none	none	15	1	7007	14000	0	0	0	0	0
+T2041-J200047-MS	J200047	T	RRMS	no	Treated	35.3	M	45.8	Unknown or not reported	Hispanic or latino	N	Teriflunomide	2	19.3	1	Cigarettes_only	1	fillings	fillings	none	none	15	1	7007	14000	0	0	0	0	0
+GL086-J200088-MS	J200088	G	RRMS	no	Treated	54.6	F	36.7	White	Not hispanic or latino	N	Teriflunomide	2.5	7.6	1	Cigarettes_only	1	fillings	fillings	gingivitis	gingivitis	13	1	7007	14000	0	0	1	2	0
+T2086-J200088-MS	J200088	T	RRMS	no	Treated	54.6	F	36.7	White	Not hispanic or latino	N	Teriflunomide	2.5	7.6	1	Cigarettes_only	1	fillings	fillings	gingivitis	gingivitis	13	1	7007	14000	0	0	1	2	0
+NL041-J200047-MS	J200047	N	RRMS	no	Treated	35.3	M	45.8	Unknown or not reported	Hispanic or latino	N	Teriflunomide	2	19.3	1	Cigarettes_only	1	fillings	fillings	none	none	15	1	7007	14000	0	0	0	0	0
+NL087-J200089-MS	J200089	N	RRMS	no	Treated	48.6	F	18.1	White	Not hispanic or latino	N	anti-CD20	3.5	14.6	1	Cigarettes_only	1	fillings	fillings	none	none	12	1	7007	14000	0	0	0	0	0
+NL066-J200069-MS	J200069	N	RRMS	no	Treated	39.1	F	47.6	White	Not hispanic or latino	N	DMF	3	15.1	1	Cigarettes_only	1	fillings	fillings	none	none	10	1	7007	14000	0	0	1	2	0
+NL064-J200067-MS	J200067	N	RRMS	no	Treated	25.7	M	17.2	White	Not hispanic or latino	N	anti-CD20	2.5	6.7	1	Cigarettes_only	1	fillings	fillings	none	none	10	0	NA	NA	0	0	0	2	0
+NL105-J200097-CTL	J200097	N	HC	no	HC	34	F	19.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	gum_surgery	gum_surgery	none	none	13	0	NA	NA	0	0	0	2	0
+GL102-J200097-CTL	J200097	G	HC	no	HC	34	F	19.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	gum_surgery	gum_surgery	none	none	13	0	NA	NA	0	0	0	2	0
+T2102-J200097-CTL	J200097	T	HC	no	HC	34	F	19.5	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	gum_surgery	gum_surgery	none	none	13	0	NA	NA	0	0	0	2	0
+GL072-J200079-MS	J200079	G	RRMS	no	Treated	41	F	31.6	White	Not hispanic or latino	N	DMF	1	6	1	Cigarettes_only	1	none	none	none	none	14	1	14007	35000	0	0	0	2	0
+T2072-J200079-MS	J200079	T	RRMS	no	Treated	41	F	31.6	White	Not hispanic or latino	N	DMF	1	6	1	Cigarettes_only	1	none	none	none	none	14	1	14007	35000	0	0	0	2	0
+GL092-J200101-MS	J200101	G	Prog MS	no	Treated	58.3	M	38	White	Not hispanic or latino	N	DMF	8	32.3	1	Cigarettes_only	1	none	none	none	none	2	1	NA	NA	0	0	0	0	0
+T2092-J200101-MS	J200101	T	Prog MS	no	Treated	58.3	M	38	White	Not hispanic or latino	N	DMF	8	32.3	1	Cigarettes_only	1	none	none	none	none	2	1	NA	NA	0	0	0	0	0
+NL080-J200081-CTL	J200081	N	HC	no	HC	51.1	M	37.6	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	none	none	none	none	7	0	NA	NA	1	0	0	1	0
+NL092-J200101-MS	J200101	N	Prog MS	no	Treated	58.3	M	38	White	Not hispanic or latino	N	DMF	8	32.3	1	Cigarettes_only	1	none	none	none	none	2	1	NA	NA	0	0	0	0	0
+GL080-J200081-CTL	J200081	G	HC	no	HC	51.1	M	37.6	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	none	none	none	none	7	0	NA	NA	1	0	0	1	0
+T2080-J200081-CTL	J200081	T	HC	no	HC	51.1	M	37.6	White	Not hispanic or latino	NA	HC	NA	NA	1	Cigarettes_only	1	none	none	none	none	7	0	NA	NA	1	0	0	1	0
+NL072-J200079-MS	J200079	N	RRMS	no	Treated	41	F	31.6	White	Not hispanic or latino	N	DMF	1	6	1	Cigarettes_only	1	none	none	none	none	14	1	14007	35000	0	0	0	2	0
+GL010-J200011-MS	J200011	G	RRMS	no	Treated	35.3	F	23.9	White	Not hispanic or latino	Y	Fingolimod	1.5	7.3	1	Cigarettes_only	1	oral_surgery	oral_surgery	none	none	9	1	2807	5600	0	0	0	2	0
+T2010-J200011-MS	J200011	T	RRMS	no	Treated	35.3	F	23.9	White	Not hispanic or latino	Y	Fingolimod	1.5	7.3	1	Cigarettes_only	1	oral_surgery	oral_surgery	none	none	9	1	2807	5600	0	0	0	2	0
+NL010-J200011-MS	J200011	N	RRMS	no	Treated	35.3	F	23.9	White	Not hispanic or latino	Y	Fingolimod	1.5	7.3	1	Cigarettes_only	1	oral_surgery	oral_surgery	none	none	9	1	2807	5600	0	0	0	2	0
+GL013-J200014-MS	J200014	G	RRMS	no	Treated	42	M	29	White	Not hispanic or latino	N	Natalizumab	1.5	18	1	Cigarettes_Marijuana	1	> 1 dental procedure	"extractions,fillings,oral_surgery"	none	none	15	1	7007	14000	1	0	0	2	0
+T2013-J200014-MS	J200014	T	RRMS	no	Treated	42	M	29	White	Not hispanic or latino	N	Natalizumab	1.5	18	1	Cigarettes_Marijuana	1	> 1 dental procedure	"extractions,fillings,oral_surgery"	none	none	15	1	7007	14000	1	0	0	2	0
+NL013-J200014-MS	J200014	N	RRMS	no	Treated	42	M	29	White	Not hispanic or latino	N	Natalizumab	1.5	18	1	Cigarettes_Marijuana	1	> 1 dental procedure	"extractions,fillings,oral_surgery"	none	none	15	1	7007	14000	1	0	0	2	0
+GL040-J200043-MS	J200043	G	RRMS	no	Treated	43	F	43	White	Not hispanic or latino	N	DMF	4.5	11	1	Cigarettes_Marijuana	1	extractions	extractions	> 1 oral disease	"gingivitis,periodontal_disease"	2	1	14007	35000	0	0	1	2	0
+T2040-J200043-MS	J200043	T	RRMS	no	Treated	43	F	43	White	Not hispanic or latino	N	DMF	4.5	11	1	Cigarettes_Marijuana	1	extractions	extractions	> 1 oral disease	"gingivitis,periodontal_disease"	2	1	14007	35000	0	0	1	2	0
+NL040-J200043-MS	J200043	N	RRMS	no	Treated	43	F	43	White	Not hispanic or latino	N	DMF	4.5	11	1	Cigarettes_Marijuana	1	extractions	extractions	> 1 oral disease	"gingivitis,periodontal_disease"	2	1	14007	35000	0	0	1	2	0
+NL071-J200077-MS	J200077	N	RRMS	no	UNTREATED	39.5	F	21.3	White	Not hispanic or latino	NA	Untreated	0	2.5	0	Marijuana_only	1	> 1 dental procedure	"oral_surgery,root_canals,sealants"	none	none	8	1	7007	14000	0	0	0	2	0
+GL071-J200077-MS	J200077	G	RRMS	no	UNTREATED	39.5	F	21.3	White	Not hispanic or latino	NA	Untreated	0	2.5	0	Marijuana_only	1	> 1 dental procedure	"oral_surgery,root_canals,sealants"	none	none	8	1	7007	14000	0	0	0	2	0
+T2071-J200077-MS	J200077	T	RRMS	no	UNTREATED	39.5	F	21.3	White	Not hispanic or latino	NA	Untreated	0	2.5	0	Marijuana_only	1	> 1 dental procedure	"oral_surgery,root_canals,sealants"	none	none	8	1	7007	14000	0	0	0	2	0
+NL025-J200009-CTL	J200009	N	HC	no	HC	28.6	M	28.4	White	Not hispanic or latino	NA	HC	NA	NA	0	Marijuana_only	1	oral_surgery	oral_surgery	none	none	3	0	NA	NA	0	0	0	1	0
+GL025-J200009-CTL	J200009	G	HC	no	HC	28.6	M	28.4	White	Not hispanic or latino	NA	HC	NA	NA	0	Marijuana_only	1	oral_surgery	oral_surgery	none	none	3	0	NA	NA	0	0	0	1	0
+GL095-J200104-MS	J200104	G	Prog MS	no	Treated	57.7	F	33.4	Black or African American	Not hispanic or latino	N	anti-CD20	6	23.7	0	NA	NA	none	none	none	none	NA	NA	NA	NA	0	0	0	0	0
+T2095-J200104-MS	J200104	T	Prog MS	no	Treated	57.7	F	33.4	Black or African American	Not hispanic or latino	N	anti-CD20	6	23.7	0	NA	NA	none	none	none	none	NA	NA	NA	NA	0	0	0	0	0
+NL095-J200104-MS	J200104	N	Prog MS	no	Treated	57.7	F	33.4	Black or African American	Not hispanic or latino	N	anti-CD20	6	23.7	0	NA	NA	none	none	none	none	NA	NA	NA	NA	0	0	0	0	0
+NL008-J200008-CTL	J200008	N	HC	no	HC	43.8	F	23.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"bridges,crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals"	> 1 oral disease	"dental_caries,gingivitis"	12	0	NA	NA	0	0	0	1	0
+GL035-J200037-MS	J200037	G	Prog MS	no	Treated	51	M	28	White	Not hispanic or latino	N	anti-CD20	3	5	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	none	none	15	1	NA	NA	0	0	0	0	0
+NL005-J200005-CTL	J200005	N	HC	no	HC	31.2	F	22.1	White	Hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,oral_surgery,root_canals,teeth_whitening"	dental_caries	dental_caries	14	0	NA	NA	0	1	0	2	0
+T2035-J200037-MS	J200037	T	Prog MS	no	Treated	51	M	28	White	Not hispanic or latino	N	anti-CD20	3	5	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	none	none	15	1	NA	NA	0	0	0	0	0
+NL001-J200001-CTL	J200001	N	HC	no	HC	34.3	F	25.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery,root_canals"	dental_caries	dental_caries	8	0	NA	NA	0	0	0	2	0
+NL051-J200040-CTL	J200040	N	HC	no	HC	46	F	23.5	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	dental_caries	dental_caries	10	0	NA	NA	0	0	0	2	0
+GL093-J200102-MS	J200102	G	Prog MS	no	Treated	58	F	24.7	White	Not hispanic or latino	N	anti-CD20	6	23	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	none	none	10	1	7007	14000	0	0	0	2	1
+NL006-J200006-CTL	J200006	N	HC	no	HC	36.3	M	32.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	dental_caries	dental_caries	13	0	NA	NA	0	0	0	2	0
+T2093-J200102-MS	J200102	T	Prog MS	no	Treated	58	F	24.7	White	Not hispanic or latino	N	anti-CD20	6	23	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	none	none	10	1	7007	14000	0	0	0	2	1
+NL077-J200073-CTL	J200073	N	HC	no	HC	27.1	M	20.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	dental_caries	dental_caries	7	0	NA	NA	0	0	0	1	0
+NL100-J200095-CTL	J200095	N	HC	no	HC	38.2	M	36.9	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,sealants"	dental_caries	dental_caries	12	0	NA	NA	0	0	0	3	0
+GL096-J200105-MS	J200105	G	Prog MS	no	Treated	59.5	F	20.8	White	Not hispanic or latino	N	anti-CD20	2	3.5	0	NONE	0	> 1 dental procedure	"crowns,fillings"	none	none	11	1	14007	35000	0	0	0	2	0
+T2096-J200105-MS	J200105	T	Prog MS	no	Treated	59.5	F	20.8	White	Not hispanic or latino	N	anti-CD20	2	3.5	0	NONE	0	> 1 dental procedure	"crowns,fillings"	none	none	11	1	14007	35000	0	0	0	2	0
+GL108-J200108-MS	J200108	G	Prog MS	no	Treated	57.3	M	22.3	Black or African American	Not hispanic or latino	N	anti-CD20	6.5	23.3	0	NONE	0	> 1 dental procedure	"extractions,root_canals"	none	none	10	0	NA	NA	0	0	0	1	0
+T2108-J200108-MS	J200108	T	Prog MS	no	Treated	57.3	M	22.3	Black or African American	Not hispanic or latino	N	anti-CD20	6.5	23.3	0	NONE	0	> 1 dental procedure	"extractions,root_canals"	none	none	10	0	NA	NA	0	0	0	1	0
+GL110-J200110-MS	J200110	G	Prog MS	no	Treated	56.9	F	32.2	White	Not hispanic or latino	N	anti-CD20	6	38.9	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals,teeth_whitening"	periodontal_disease	periodontal_disease	14	0	NA	NA	0	0	0	1	0
+T2110-J200110-MS	J200110	T	Prog MS	no	Treated	56.9	F	32.2	White	Not hispanic or latino	N	anti-CD20	6	38.9	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals,teeth_whitening"	periodontal_disease	periodontal_disease	14	0	NA	NA	0	0	0	1	0
+GL014-J200016-MS	J200016	G	RRMS	no	Treated	51.6	M	41.7	White	Not hispanic or latino	N	DMF	6	4.6	0	NONE	0	> 1 dental procedure	"crowns,dentures,extractions,oral_surgery"	dental_caries	dental_caries	13	1	35007	70000	0	0	0	0	0
+NL026-J200015-CTL	J200015	N	HC	no	HC	24.9	F	23.2	White	Hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	none	none	8	0	NA	NA	0	0	0	2	0
+T2014-J200016-MS	J200016	T	RRMS	no	Treated	51.6	M	41.7	White	Not hispanic or latino	N	DMF	6	4.6	0	NONE	0	> 1 dental procedure	"crowns,dentures,extractions,oral_surgery"	dental_caries	dental_caries	13	1	35007	70000	0	0	0	0	0
+GL015-J200018-MS	J200018	G	RRMS	no	Treated	40.4	F	36.5	Black or African American	Not hispanic or latino	N	DMF	3	14.4	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	6	1	7007	14000	0	0	0	2	0
+NL002-J200002-CTL	J200002	N	HC	no	HC	24.2	F	23.6	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery,root_canals,sealants"	none	none	11	1	2002	4000	0	0	0	2	0
+T2015-J200018-MS	J200018	T	RRMS	no	Treated	40.4	F	36.5	Black or African American	Not hispanic or latino	N	DMF	3	14.4	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	6	1	7007	14000	0	0	0	2	0
+NL027-J200017-CTL	J200017	N	HC	no	HC	52.1	F	42.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	13	1	NA	NA	0	0	0	0	0
+NL055-J200052-CTL	J200052	N	HC	no	HC	57.9	F	20.8	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	10	1	14007	35000	0	0	0	2	0
+GL050-J200036-CTL	J200036	G	RRMS	no	Treated	35.4	M	32.7	White	Not hispanic or latino	N	DMF	1.5	8.4	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	14	1	14007	35000	0	0	0	0	0
+NL078-J200074-CTL	J200074	N	HC	no	HC	25.2	F	21.5	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery"	none	none	11	0	NA	NA	0	0	0	2	0
+T2050-J200036-CTL	J200036	T	RRMS	no	Treated	35.4	M	32.7	White	Not hispanic or latino	N	DMF	1.5	8.4	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	14	1	14007	35000	0	0	0	0	0
+NL099-J200094-CTL	J200094	N	HC	no	HC	29.2	F	25.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,oral_surgery,sealants"	none	none	10	0	NA	NA	0	0	0	3	0
+NL049-J200035-CTL	J200035	N	HC	no	HC	30.3	M	25.4	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	none	none	11	0	NA	NA	0	0	0	1	0
+NL075-J200065-CTL	J200065	N	HC	no	HC	38.2	M	27.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,root_canals"	none	none	9	0	NA	NA	0	0	0	2	0
+GL058-J200060-MS	J200060	G	RRMS	no	Treated	38.3	F	27.8	White	Not hispanic or latino	N	DMF	1	12.3	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	periodontal_disease	periodontal_disease	9	1	7007	14000	0	0	0	4	0
+T2058-J200060-MS	J200060	T	RRMS	no	Treated	38.3	F	27.8	White	Not hispanic or latino	N	DMF	1	12.3	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	periodontal_disease	periodontal_disease	9	1	7007	14000	0	0	0	4	0
+GL067-J200070-MS	J200070	G	RRMS	no	Treated	42.7	F	27.2	White	Not hispanic or latino	N	DMF	0	5.7	0	NONE	0	> 1 dental procedure	"fillings,root_canals,sealants"	none	none	10	1	14007	35000	0	0	0	4	0
+T2067-J200070-MS	J200070	T	RRMS	no	Treated	42.7	F	27.2	White	Not hispanic or latino	N	DMF	0	5.7	0	NONE	0	> 1 dental procedure	"fillings,root_canals,sealants"	none	none	10	1	14007	35000	0	0	0	4	0
+GL009-J200010-MS	J200010	G	RRMS	no	Treated	54.8	F	26	White	Not hispanic or latino	N	glatiramer acetate	1.5	19.8	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery"	none	none	14	1	14007	35000	0	0	0	2	0
+T2009-J200010-MS	J200010	T	RRMS	no	Treated	54.8	F	26	White	Not hispanic or latino	N	glatiramer acetate	1.5	19.8	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery"	none	none	14	1	14007	35000	0	0	0	2	0
+GL034-J200034-MS	J200034	G	RRMS	no	Treated	29.8	F	20.1	White	Not hispanic or latino	N	glatiramer acetate	1	2.8	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	> 1 oral disease	"dental_caries,dental_abscess"	8	1	7007	14000	1	0	0	2	0
+NL054-J200046-CTL	J200046	N	HC	no	HC	57.1	F	27.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery"	periodontal_disease	periodontal_disease	9	0	NA	NA	0	0	0	0	0
+T2034-J200034-MS	J200034	T	RRMS	no	Treated	29.8	F	20.1	White	Not hispanic or latino	N	glatiramer acetate	1	2.8	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	> 1 oral disease	"dental_caries,dental_abscess"	8	1	7007	14000	1	0	0	2	0
+NL074-J200059-CTL	J200059	N	HC	no	HC	56.4	F	20.2	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	periodontal_disease	periodontal_disease	11	0	NA	NA	0	0	0	1	0
+NL053-J200045-CTL	J200045	N	HC	no	HC	61.4	M	24.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	10	1	NA	NA	1	0	0	1	0
+NL056-J200054-CTL	J200054	N	HC	no	HC	50.5	M	21.2	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,root_canals"	none	none	8	0	NA	NA	1	0	0	3	0
+GL047-J200055-MS	J200055	G	Prog MS	no	Treated	61.9	F	19.7	White	Not hispanic or latino	N	Interferon	6	14.9	0	NONE	0	> 1 dental procedure	"bridges,crowns,extractions,fillings,oral_surgery,root_canals"	dental_caries	dental_caries	13	1	7007	14000	0	0	1	1	0
+T2047-J200055-MS	J200055	T	Prog MS	no	Treated	61.9	F	19.7	White	Not hispanic or latino	N	Interferon	6	14.9	0	NONE	0	> 1 dental procedure	"bridges,crowns,extractions,fillings,oral_surgery,root_canals"	dental_caries	dental_caries	13	1	7007	14000	0	0	1	1	0
+NL108-J200108-MS	J200108	N	Prog MS	no	Treated	57.3	M	22.3	Black or African American	Not hispanic or latino	N	anti-CD20	6.5	23.3	0	NONE	0	> 1 dental procedure	"extractions,root_canals"	none	none	10	0	NA	NA	0	0	0	1	0
+GL062-J200064-MS	J200064	G	RRMS	no	Treated	36.3	F	67.3	White	Not hispanic or latino	N	Interferon	0	14.3	0	NONE	0	> 1 dental procedure	"fillings,sealants"	none	none	11	0	NA	NA	1	1	0	2	0
+T2062-J200064-MS	J200064	T	RRMS	no	Treated	36.3	F	67.3	White	Not hispanic or latino	N	Interferon	0	14.3	0	NONE	0	> 1 dental procedure	"fillings,sealants"	none	none	11	0	NA	NA	1	1	0	2	0
+GL085-J200087-MS	J200087	G	RRMS	no	Treated	54.7	M	23.1	White	Not hispanic or latino	N	Interferon	2.5	16.7	0	NONE	0	> 1 dental procedure	"crowns,fillings"	none	none	10	1	6006	12000	0	0	0	1	0
+NL110-J200110-MS	J200110	N	Prog MS	no	Treated	56.9	F	32.2	White	Not hispanic or latino	N	anti-CD20	6	38.9	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals,teeth_whitening"	periodontal_disease	periodontal_disease	14	0	NA	NA	0	0	0	1	0
+T2085-J200087-MS	J200087	T	RRMS	no	Treated	54.7	M	23.1	White	Not hispanic or latino	N	Interferon	2.5	16.7	0	NONE	0	> 1 dental procedure	"crowns,fillings"	none	none	10	1	6006	12000	0	0	0	1	0
+NL047-J200055-MS	J200055	N	Prog MS	no	Treated	61.9	F	19.7	White	Not hispanic or latino	N	Interferon	6	14.9	0	NONE	0	> 1 dental procedure	"bridges,crowns,extractions,fillings,oral_surgery,root_canals"	dental_caries	dental_caries	13	1	7007	14000	0	0	1	1	0
+GL063-J200066-MS	J200066	G	RRMS	no	Treated	54.5	F	25.1	White	Not hispanic or latino	N	mycophenolate mofetil and glatiramer acetate	3.5	25.5	0	NONE	0	> 1 dental procedure	"gum_surgery,root_canals"	periodontal_disease	periodontal_disease	15	1	7007	14000	0	0	0	2	1
+T2063-J200066-MS	J200066	T	RRMS	no	Treated	54.5	F	25.1	White	Not hispanic or latino	N	mycophenolate mofetil and glatiramer acetate	3.5	25.5	0	NONE	0	> 1 dental procedure	"gum_surgery,root_canals"	periodontal_disease	periodontal_disease	15	1	7007	14000	0	0	0	2	1
+NL093-J200102-MS	J200102	N	Prog MS	no	Treated	58	F	24.7	White	Not hispanic or latino	N	anti-CD20	6	23	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	none	none	10	1	7007	14000	0	0	0	2	1
+NL096-J200105-MS	J200105	N	Prog MS	no	Treated	59.5	F	20.8	White	Not hispanic or latino	N	anti-CD20	2	3.5	0	NONE	0	> 1 dental procedure	"crowns,fillings"	none	none	11	1	14007	35000	0	0	0	2	0
+NL035-J200037-MS	J200037	N	Prog MS	no	Treated	51	M	28	White	Not hispanic or latino	N	anti-CD20	3	5	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	none	none	15	1	NA	NA	0	0	0	0	0
+GL057-J200058-MS	J200058	G	RRMS	no	Treated	57.3	M	32	White	Not hispanic or latino	N	Teriflunomide	2.5	10.3	0	NONE	0	> 1 dental procedure	"crowns,gum_surgery,root_canals,Apicoectomy"	none	none	8	1	7007	14000	0	0	0	0	1
+T2057-J200058-MS	J200058	T	RRMS	no	Treated	57.3	M	32	White	Not hispanic or latino	N	Teriflunomide	2.5	10.3	0	NONE	0	> 1 dental procedure	"crowns,gum_surgery,root_canals,Apicoectomy"	none	none	8	1	7007	14000	0	0	0	0	1
+GL081-J200080-MS	J200080	G	RRMS	no	Treated	49.9	F	21.5	White	Not hispanic or latino	N	Teriflunomide	2.5	31.9	0	NONE	0	> 1 dental procedure	"crowns,fillings,root_canals"	none	none	8	1	20004	40000	0	1	1	1	0
+T2081-J200080-MS	J200080	T	RRMS	no	Treated	49.9	F	21.5	White	Not hispanic or latino	N	Teriflunomide	2.5	31.9	0	NONE	0	> 1 dental procedure	"crowns,fillings,root_canals"	none	none	8	1	20004	40000	0	1	1	1	0
+NL034-J200034-MS	J200034	N	RRMS	no	Treated	29.8	F	20.1	White	Not hispanic or latino	N	glatiramer acetate	1	2.8	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	> 1 oral disease	"dental_caries,dental_abscess"	8	1	7007	14000	1	0	0	2	0
+NL048-J200057-MS	J200057	N	RRMS	no	Treated	37.4	F	26.4	White	Not hispanic or latino	N	Natalizumab	3	21.4	0	NONE	0	fillings	fillings	> 1 oral disease	"dental_caries,description_na"	10	1	7007	14000	0	0	0	4	0
+GL069-J200075-MS	J200075	G	RRMS	no	Treated	38.6	M	22.1	White	Not hispanic or latino	Y	Fingolimod	1.5	12.6	0	NONE	0	> 1 dental procedure	"fillings,root_canals"	none	none	7	1	7007	14000	0	0	0	1	0
+T2069-J200075-MS	J200075	T	RRMS	no	Treated	38.6	M	22.1	White	Not hispanic or latino	Y	Fingolimod	1.5	12.6	0	NONE	0	> 1 dental procedure	"fillings,root_canals"	none	none	7	1	7007	14000	0	0	0	1	0
+GL083-J200083-MS	J200083	G	RRMS	no	Treated	40.1	F	22.9	White	Not hispanic or latino	Y	Fingolimod	0	2.1	0	NONE	0	> 1 dental procedure	"oral_surgery,sealants"	none	none	7	1	12006	30000	0	0	0	2	0
+NL014-J200016-MS	J200016	N	RRMS	no	Treated	51.6	M	41.7	White	Not hispanic or latino	N	DMF	6	4.6	0	NONE	0	> 1 dental procedure	"crowns,dentures,extractions,oral_surgery"	dental_caries	dental_caries	13	1	35007	70000	0	0	0	0	0
+T2083-J200083-MS	J200083	T	RRMS	no	Treated	40.1	F	22.9	White	Not hispanic or latino	Y	Fingolimod	0	2.1	0	NONE	0	> 1 dental procedure	"oral_surgery,sealants"	none	none	7	1	12006	30000	0	0	0	2	0
+GL001-J200001-CTL	J200001	G	HC	no	HC	34.3	F	25.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery,root_canals"	dental_caries	dental_caries	8	0	NA	NA	0	0	0	2	0
+T2001-J200001-CTL	J200001	T	HC	no	HC	34.3	F	25.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery,root_canals"	dental_caries	dental_caries	8	0	NA	NA	0	0	0	2	0
+GL002-J200002-CTL	J200002	G	HC	no	HC	24.2	F	23.6	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery,root_canals,sealants"	none	none	11	1	2002	4000	0	0	0	2	0
+T2002-J200002-CTL	J200002	T	HC	no	HC	24.2	F	23.6	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery,root_canals,sealants"	none	none	11	1	2002	4000	0	0	0	2	0
+GL005-J200005-CTL	J200005	G	HC	no	HC	31.2	F	22.1	White	Hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,oral_surgery,root_canals,teeth_whitening"	dental_caries	dental_caries	14	0	NA	NA	0	1	0	2	0
+T2005-J200005-CTL	J200005	T	HC	no	HC	31.2	F	22.1	White	Hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,oral_surgery,root_canals,teeth_whitening"	dental_caries	dental_caries	14	0	NA	NA	0	1	0	2	0
+GL006-J200006-CTL	J200006	G	HC	no	HC	36.3	M	32.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	dental_caries	dental_caries	13	0	NA	NA	0	0	0	2	0
+T2006-J200006-CTL	J200006	T	HC	no	HC	36.3	M	32.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	dental_caries	dental_caries	13	0	NA	NA	0	0	0	2	0
+GL008-J200008-CTL	J200008	G	HC	no	HC	43.8	F	23.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"bridges,crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals"	> 1 oral disease	"dental_caries,gingivitis"	12	0	NA	NA	0	0	0	1	0
+T2008-J200008-CTL	J200008	T	HC	no	HC	43.8	F	23.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"bridges,crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals"	> 1 oral disease	"dental_caries,gingivitis"	12	0	NA	NA	0	0	0	1	0
+GL026-J200015-CTL	J200015	G	HC	no	HC	24.9	F	23.2	White	Hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	none	none	8	0	NA	NA	0	0	0	2	0
+T2026-J200015-CTL	J200015	T	HC	no	HC	24.9	F	23.2	White	Hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	none	none	8	0	NA	NA	0	0	0	2	0
+GL027-J200017-CTL	J200017	G	HC	no	HC	52.1	F	42.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	13	1	NA	NA	0	0	0	0	0
+T2027-J200017-CTL	J200017	T	HC	no	HC	52.1	F	42.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	13	1	NA	NA	0	0	0	0	0
+GL049-J200035-CTL	J200035	G	HC	no	HC	30.3	M	25.4	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	none	none	11	0	NA	NA	0	0	0	1	0
+T2049-J200035-CTL	J200035	T	HC	no	HC	30.3	M	25.4	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	none	none	11	0	NA	NA	0	0	0	1	0
+GL051-J200040-CTL	J200040	G	HC	no	HC	46	F	23.5	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	dental_caries	dental_caries	10	0	NA	NA	0	0	0	2	0
+NL015-J200018-MS	J200018	N	RRMS	no	Treated	40.4	F	36.5	Black or African American	Not hispanic or latino	N	DMF	3	14.4	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery,root_canals"	none	none	6	1	7007	14000	0	0	0	2	0
+T2051-J200040-CTL	J200040	T	HC	no	HC	46	F	23.5	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery"	dental_caries	dental_caries	10	0	NA	NA	0	0	0	2	0
+NL067-J200070-MS	J200070	N	RRMS	no	Treated	42.7	F	27.2	White	Not hispanic or latino	N	DMF	0	5.7	0	NONE	0	> 1 dental procedure	"fillings,root_canals,sealants"	none	none	10	1	14007	35000	0	0	0	4	0
+GL053-J200045-CTL	J200045	G	HC	no	HC	61.4	M	24.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	10	1	NA	NA	1	0	0	1	0
+NL009-J200010-MS	J200010	N	RRMS	no	Treated	54.8	F	26	White	Not hispanic or latino	N	glatiramer acetate	1.5	19.8	0	NONE	0	> 1 dental procedure	"crowns,fillings,oral_surgery"	none	none	14	1	14007	35000	0	0	0	2	0
+T2053-J200045-CTL	J200045	T	HC	no	HC	61.4	M	24.7	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	none	none	10	1	NA	NA	1	0	0	1	0
+GL054-J200046-CTL	J200046	G	HC	no	HC	57.1	F	27.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery"	periodontal_disease	periodontal_disease	9	0	NA	NA	0	0	0	0	0
+NL062-J200064-MS	J200064	N	RRMS	no	Treated	36.3	F	67.3	White	Not hispanic or latino	N	Interferon	0	14.3	0	NONE	0	> 1 dental procedure	"fillings,sealants"	none	none	11	0	NA	NA	1	1	0	2	0
+T2054-J200046-CTL	J200046	T	HC	no	HC	57.1	F	27.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery"	periodontal_disease	periodontal_disease	9	0	NA	NA	0	0	0	0	0
+GL055-J200052-CTL	J200052	G	HC	no	HC	57.9	F	20.8	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	10	1	14007	35000	0	0	0	2	0
+NL081-J200080-MS	J200080	N	RRMS	no	Treated	49.9	F	21.5	White	Not hispanic or latino	N	Teriflunomide	2.5	31.9	0	NONE	0	> 1 dental procedure	"crowns,fillings,root_canals"	none	none	8	1	20004	40000	0	1	1	1	0
+T2055-J200052-CTL	J200052	T	HC	no	HC	57.9	F	20.8	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	10	1	14007	35000	0	0	0	2	0
+GL056-J200054-CTL	J200054	G	HC	no	HC	50.5	M	21.2	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,root_canals"	none	none	8	0	NA	NA	1	0	0	3	0
+NL083-J200083-MS	J200083	N	RRMS	no	Treated	40.1	F	22.9	White	Not hispanic or latino	Y	Fingolimod	0	2.1	0	NONE	0	> 1 dental procedure	"oral_surgery,sealants"	none	none	7	1	12006	30000	0	0	0	2	0
+T2056-J200054-CTL	J200054	T	HC	no	HC	50.5	M	21.2	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,root_canals"	none	none	8	0	NA	NA	1	0	0	3	0
+NL050-J200036-CTL	J200036	N	RRMS	no	Treated	35.4	M	32.7	White	Not hispanic or latino	N	DMF	1.5	8.4	0	NONE	0	> 1 dental procedure	"fillings,oral_surgery,sealants"	none	none	14	1	14007	35000	0	0	0	0	0
+GL074-J200059-CTL	J200059	G	HC	no	HC	56.4	F	20.2	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	periodontal_disease	periodontal_disease	11	0	NA	NA	0	0	0	1	0
+NL085-J200087-MS	J200087	N	RRMS	no	Treated	54.7	M	23.1	White	Not hispanic or latino	N	Interferon	2.5	16.7	0	NONE	0	> 1 dental procedure	"crowns,fillings"	none	none	10	1	6006	12000	0	0	0	1	0
+T2074-J200059-CTL	J200059	T	HC	no	HC	56.4	F	20.2	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,oral_surgery,root_canals"	periodontal_disease	periodontal_disease	11	0	NA	NA	0	0	0	1	0
+GL075-J200065-CTL	J200065	G	HC	no	HC	38.2	M	27.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,root_canals"	none	none	9	0	NA	NA	0	0	0	2	0
+NL057-J200058-MS	J200058	N	RRMS	no	Treated	57.3	M	32	White	Not hispanic or latino	N	Teriflunomide	2.5	10.3	0	NONE	0	> 1 dental procedure	"crowns,gum_surgery,root_canals,Apicoectomy"	none	none	8	1	7007	14000	0	0	0	0	1
+T2075-J200065-CTL	J200065	T	HC	no	HC	38.2	M	27.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,root_canals"	none	none	9	0	NA	NA	0	0	0	2	0
+NL069-J200075-MS	J200075	N	RRMS	no	Treated	38.6	M	22.1	White	Not hispanic or latino	Y	Fingolimod	1.5	12.6	0	NONE	0	> 1 dental procedure	"fillings,root_canals"	none	none	7	1	7007	14000	0	0	0	1	0
+GL077-J200073-CTL	J200073	G	HC	no	HC	27.1	M	20.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	dental_caries	dental_caries	7	0	NA	NA	0	0	0	1	0
+NL033-J200033-MS	J200033	N	RRMS	no	UNTREATED	56.7	M	29.7	White	Not hispanic or latino	NA	Untreated	4	26.7	0	NONE	0	> 1 dental procedure	"crowns,fillings,root_canals,teeth_whitening"	none	none	11	1	35007	70000	0	0	0	2	0
+T2077-J200073-CTL	J200073	T	HC	no	HC	27.1	M	20.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	dental_caries	dental_caries	7	0	NA	NA	0	0	0	1	0
+GL078-J200074-CTL	J200074	G	HC	no	HC	25.2	F	21.5	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery"	none	none	11	0	NA	NA	0	0	0	2	0
+T2078-J200074-CTL	J200074	T	HC	no	HC	25.2	F	21.5	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,fillings,oral_surgery"	none	none	11	0	NA	NA	0	0	0	2	0
+GL099-J200094-CTL	J200094	G	HC	no	HC	29.2	F	25.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,oral_surgery,sealants"	none	none	10	0	NA	NA	0	0	0	3	0
+T2099-J200094-CTL	J200094	T	HC	no	HC	29.2	F	25.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"extractions,oral_surgery,sealants"	none	none	10	0	NA	NA	0	0	0	3	0
+GL100-J200095-CTL	J200095	G	HC	no	HC	38.2	M	36.9	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,sealants"	dental_caries	dental_caries	12	0	NA	NA	0	0	0	3	0
+T2100-J200095-CTL	J200095	T	HC	no	HC	38.2	M	36.9	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	> 1 dental procedure	"fillings,sealants"	dental_caries	dental_caries	12	0	NA	NA	0	0	0	3	0
+GL023-J200028-MS	J200028	G	RRMS	no	UNTREATED	35.7	F	28.6	White	Not hispanic or latino	NA	Untreated	2	18.7	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals,sealants,teeth_whitening,veneers,implant"	> 1 oral disease	"gingivitis,dental_abscess"	11	1	NA	NA	0	0	1	2	0
+T2023-J200028-MS	J200028	T	RRMS	no	UNTREATED	35.7	F	28.6	White	Not hispanic or latino	NA	Untreated	2	18.7	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals,sealants,teeth_whitening,veneers,implant"	> 1 oral disease	"gingivitis,dental_abscess"	11	1	NA	NA	0	0	1	2	0
+GL033-J200033-MS	J200033	G	RRMS	no	UNTREATED	56.7	M	29.7	White	Not hispanic or latino	NA	Untreated	4	26.7	0	NONE	0	> 1 dental procedure	"crowns,fillings,root_canals,teeth_whitening"	none	none	11	1	35007	70000	0	0	0	2	0
+T2033-J200033-MS	J200033	T	RRMS	no	UNTREATED	56.7	M	29.7	White	Not hispanic or latino	NA	Untreated	4	26.7	0	NONE	0	> 1 dental procedure	"crowns,fillings,root_canals,teeth_whitening"	none	none	11	1	35007	70000	0	0	0	2	0
+NL058-J200060-MS	J200060	N	RRMS	no	Treated	38.3	F	27.8	White	Not hispanic or latino	N	DMF	1	12.3	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,root_canals"	periodontal_disease	periodontal_disease	9	1	7007	14000	0	0	0	4	0
+NL063-J200066-MS	J200066	N	RRMS	no	Treated	54.5	F	25.1	White	Not hispanic or latino	N	mycophenolate mofetil and glatiramer acetate	3.5	25.5	0	NONE	0	> 1 dental procedure	"gum_surgery,root_canals"	periodontal_disease	periodontal_disease	15	1	7007	14000	0	0	0	2	1
+GL091-J200093-MS	J200093	G	RRMS	no	Treated	35.2	F	31.5	White	Not hispanic or latino	N	glatiramer acetate	0	10.2	0	NONE	0	crowns	crowns	dental_caries	dental_caries	7	1	NA	NA	0	0	0	3	0
+T2091-J200093-MS	J200093	T	RRMS	no	Treated	35.2	F	31.5	White	Not hispanic or latino	N	glatiramer acetate	0	10.2	0	NONE	0	crowns	crowns	dental_caries	dental_caries	7	1	NA	NA	0	0	0	3	0
+NL091-J200093-MS	J200093	N	RRMS	no	Treated	35.2	F	31.5	White	Not hispanic or latino	N	glatiramer acetate	0	10.2	0	NONE	0	crowns	crowns	dental_caries	dental_caries	7	1	NA	NA	0	0	0	3	0
+NL103-J200099-CTL	J200099	N	HC	no	HC	28.7	F	18.3	Asian	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	extractions	extractions	dental_caries	dental_caries	12	0	NA	NA	1	0	0	1	0
+GL104-J200099-CTL	J200099	G	HC	no	HC	28.7	F	18.3	Asian	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	extractions	extractions	dental_caries	dental_caries	12	0	NA	NA	1	0	0	1	0
+T2104-J200099-CTL	J200099	T	HC	no	HC	28.7	F	18.3	Asian	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	extractions	extractions	dental_caries	dental_caries	12	0	NA	NA	1	0	0	1	0
+GL024-J200030-MS	J200030	G	Prog MS	no	Treated	49.4	M	22.9	South Asian	Not hispanic or latino	N	anti-CD20	3.5	27.4	0	NONE	0	fillings	fillings	none	none	12	1	10005	25000	0	0	0	1	0
+T2024-J200030-MS	J200030	T	Prog MS	no	Treated	49.4	M	22.9	South Asian	Not hispanic or latino	N	anti-CD20	3.5	27.4	0	NONE	0	fillings	fillings	none	none	12	1	10005	25000	0	0	0	1	0
+NL104-J200100-CTL	J200100	N	HC	no	HC	31.2	M	25.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	dental_caries	dental_caries	10	0	NA	NA	0	0	0	0	0
+GL039-J200042-MS	J200042	G	RRMS	no	Treated	53.8	F	21.8	White	Not hispanic or latino	N	DMF	2	15.8	0	NONE	0	fillings	fillings	none	none	11	1	2002	4000	0	0	0	2	0
+T2039-J200042-MS	J200042	T	RRMS	no	Treated	53.8	F	21.8	White	Not hispanic or latino	N	DMF	2	15.8	0	NONE	0	fillings	fillings	none	none	11	1	2002	4000	0	0	0	2	0
+NL079-J200078-CTL	J200078	N	HC	no	HC	22.3	F	21.6	South Asian	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	9	1	402	800	0	0	0	2	0
+NL003-J200003-CTL	J200003	N	HC	no	HC	22.8	F	20.8	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	6	0	NA	NA	0	0	0	0	0
+NL028-J200022-CTL	J200022	N	HC	no	HC	39.1	M	37.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	5	0	NA	NA	0	0	0	2	0
+GL089-J200091-MS	J200091	G	RRMS	no	Treated	38.8	F	22.9	White	Not hispanic or latino	N	DMF	1	8.8	0	NONE	0	fillings	fillings	reoccurring_ulcers	reoccurring_ulcers	10	1	7007	14000	1	0	0	2	0
+T2089-J200091-MS	J200091	T	RRMS	no	Treated	38.8	F	22.9	White	Not hispanic or latino	N	DMF	1	8.8	0	NONE	0	fillings	fillings	reoccurring_ulcers	reoccurring_ulcers	10	1	7007	14000	1	0	0	2	0
+GL042-J200048-MS	J200048	G	RRMS	no	Treated	50.4	M	26.9	White	Not hispanic or latino	N	glatiramer acetate	0	8.4	0	NONE	0	fillings	fillings	none	none	12	1	2807	5600	0	0	1	2	0
+T2042-J200048-MS	J200048	T	RRMS	no	Treated	50.4	M	26.9	White	Not hispanic or latino	N	glatiramer acetate	0	8.4	0	NONE	0	fillings	fillings	none	none	12	1	2807	5600	0	0	1	2	0
+GL048-J200057-MS	J200057	G	RRMS	no	Treated	37.4	F	26.4	White	Not hispanic or latino	N	Natalizumab	3	21.4	0	NONE	0	fillings	fillings	> 1 oral disease	"dental_caries,description_na"	10	1	7007	14000	0	0	0	4	0
+NL024-J200030-MS	J200030	N	Prog MS	no	Treated	49.4	M	22.9	South Asian	Not hispanic or latino	N	anti-CD20	3.5	27.4	0	NONE	0	fillings	fillings	none	none	12	1	10005	25000	0	0	0	1	0
+T2048-J200057-MS	J200057	T	RRMS	no	Treated	37.4	F	26.4	White	Not hispanic or latino	N	Natalizumab	3	21.4	0	NONE	0	fillings	fillings	> 1 oral disease	"dental_caries,description_na"	10	1	7007	14000	0	0	0	4	0
+NL023-J200028-MS	J200028	N	RRMS	no	UNTREATED	35.7	F	28.6	White	Not hispanic or latino	NA	Untreated	2	18.7	0	NONE	0	> 1 dental procedure	"crowns,extractions,fillings,gum_surgery,oral_surgery,root_canals,sealants,teeth_whitening,veneers,implant"	> 1 oral disease	"gingivitis,dental_abscess"	11	1	NA	NA	0	0	1	2	0
+GL070-J200076-MS	J200076	G	RRMS	no	Treated	24.4	M	24.4	White	Not hispanic or latino	Y	Fingolimod	0	6.4	0	NONE	0	fillings	fillings	none	none	6	1	7007	14000	0	0	1	2	3
+T2070-J200076-MS	J200076	T	RRMS	no	Treated	24.4	M	24.4	White	Not hispanic or latino	Y	Fingolimod	0	6.4	0	NONE	0	fillings	fillings	none	none	6	1	7007	14000	0	0	1	2	3
+NL084-J200084-MS	J200084	N	RRMS	no	UNTREATED	22.8	F	53.3	White	Not hispanic or latino	NA	Untreated	0	2.8	0	NONE	0	fillings	fillings	description_na	description_na	13	1	0	800	0	0	0	1	0
+GL003-J200003-CTL	J200003	G	HC	no	HC	22.8	F	20.8	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	6	0	NA	NA	0	0	0	0	0
+T2003-J200003-CTL	J200003	T	HC	no	HC	22.8	F	20.8	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	6	0	NA	NA	0	0	0	0	0
+GL028-J200022-CTL	J200022	G	HC	no	HC	39.1	M	37.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	5	0	NA	NA	0	0	0	2	0
+T2028-J200022-CTL	J200022	T	HC	no	HC	39.1	M	37.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	5	0	NA	NA	0	0	0	2	0
+GL079-J200078-CTL	J200078	G	HC	no	HC	22.3	F	21.6	South Asian	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	9	1	402	800	0	0	0	2	0
+T2079-J200078-CTL	J200078	T	HC	no	HC	22.3	F	21.6	South Asian	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	none	none	9	1	402	800	0	0	0	2	0
+NL039-J200042-MS	J200042	N	RRMS	no	Treated	53.8	F	21.8	White	Not hispanic or latino	N	DMF	2	15.8	0	NONE	0	fillings	fillings	none	none	11	1	2002	4000	0	0	0	2	0
+NL042-J200048-MS	J200048	N	RRMS	no	Treated	50.4	M	26.9	White	Not hispanic or latino	N	glatiramer acetate	0	8.4	0	NONE	0	fillings	fillings	none	none	12	1	2807	5600	0	0	1	2	0
+NL070-J200076-MS	J200076	N	RRMS	no	Treated	24.4	M	24.4	White	Not hispanic or latino	Y	Fingolimod	0	6.4	0	NONE	0	fillings	fillings	none	none	6	1	7007	14000	0	0	1	2	3
+GL105-J200100-CTL	J200100	G	HC	no	HC	31.2	M	25.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	dental_caries	dental_caries	10	0	NA	NA	0	0	0	0	0
+T2105-J200100-CTL	J200100	T	HC	no	HC	31.2	M	25.1	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	fillings	fillings	dental_caries	dental_caries	10	0	NA	NA	0	0	0	0	0
+GL084-J200084-MS	J200084	G	RRMS	no	UNTREATED	22.8	F	53.3	White	Not hispanic or latino	NA	Untreated	0	2.8	0	NONE	0	fillings	fillings	description_na	description_na	13	1	0	800	0	0	0	1	0
+T2084-J200084-MS	J200084	T	RRMS	no	UNTREATED	22.8	F	53.3	White	Not hispanic or latino	NA	Untreated	0	2.8	0	NONE	0	fillings	fillings	description_na	description_na	13	1	0	800	0	0	0	1	0
+NL089-J200091-MS	J200091	N	RRMS	no	Treated	38.8	F	22.9	White	Not hispanic or latino	N	DMF	1	8.8	0	NONE	0	fillings	fillings	reoccurring_ulcers	reoccurring_ulcers	10	1	7007	14000	1	0	0	2	0
+GL094-J200103-MS	J200103	G	Prog MS	no	Treated	51.3	F	21.9	White	Hispanic or latino	N	anti-CD20	2	9.3	0	NONE	0	none	none	none	none	11	1	2807	5600	0	0	0	1	0
+T2094-J200103-MS	J200103	T	Prog MS	no	Treated	51.3	F	21.9	White	Hispanic or latino	N	anti-CD20	2	9.3	0	NONE	0	none	none	none	none	11	1	2807	5600	0	0	0	1	0
+T2016-J200019-MS	J200019	T	RRMS	no	Treated	34.5	F	26.4	White	Not hispanic or latino	N	anti-CD52	3.5	4.5	0	NONE	0	none	none	none	none	9	1	12006	30000	0	0	0	0	0
+GL018-J200021-MS	J200021	G	RRMS	no	Treated	33.6	F	32.6	White	Not hispanic or latino	N	DMF	0	4.6	0	NONE	0	none	none	none	none	5	1	5001	10000	0	0	0	1	0
+T2018-J200021-MS	J200021	T	RRMS	no	Treated	33.6	F	32.6	White	Not hispanic or latino	N	DMF	0	4.6	0	NONE	0	none	none	none	none	5	1	5001	10000	0	0	0	1	0
+NL004-J200004-CTL	J200004	N	HC	no	HC	33.9	F	24.5	Unknown or not reported	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	5	0	NA	NA	0	0	0	0	0
+NL032-J200032-CTL	J200032	N	HC	no	HC	34.2	M	26.5	White	Hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	11	1	7007	14000	0	0	0	0	0
+NL030-J200029-CTL	J200029	N	HC	no	HC	65.8	M	33	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	12	0	NA	NA	0	0	0	2	0
+NL098-J200086-CTL	J200086	N	HC	no	HC	31.6	F	28.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	6	1	603	1200	1	1	1	2	0
+GL061-J200063-MS	J200063	G	RRMS	no	Treated	53.4	M	23.5	White	Not hispanic or latino	N	Interferon	2.5	29.4	0	NONE	0	none	none	none	none	9	1	8004	20000	0	0	0	4	1
+T2061-J200063-MS	J200063	T	RRMS	no	Treated	53.4	M	23.5	White	Not hispanic or latino	N	Interferon	2.5	29.4	0	NONE	0	none	none	none	none	9	1	8004	20000	0	0	0	4	1
+GL111-J200111-MS	J200111	G	Prog MS	no	Treated	62.7	M	27.1	White	Not hispanic or latino	N	Methotrexate	7.5	28.7	0	NONE	0	none	none	none	none	8	1	NA	NA	0	0	0	2	1
+T2111-J200111-MS	J200111	T	Prog MS	no	Treated	62.7	M	27.1	White	Not hispanic or latino	N	Methotrexate	7.5	28.7	0	NONE	0	none	none	none	none	8	1	NA	NA	0	0	0	2	1
+NL094-J200103-MS	J200103	N	Prog MS	no	Treated	51.3	F	21.9	White	Hispanic or latino	N	anti-CD20	2	9.3	0	NONE	0	none	none	none	none	11	1	2807	5600	0	0	0	1	0
+NL111-J200111-MS	J200111	N	Prog MS	no	Treated	62.7	M	27.1	White	Not hispanic or latino	N	Methotrexate	7.5	28.7	0	NONE	0	none	none	none	none	8	1	NA	NA	0	0	0	2	1
+GL004-J200004-CTL	J200004	G	HC	no	HC	33.9	F	24.5	Unknown or not reported	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	5	0	NA	NA	0	0	0	0	0
+T2004-J200004-CTL	J200004	T	HC	no	HC	33.9	F	24.5	Unknown or not reported	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	5	0	NA	NA	0	0	0	0	0
+GL030-J200029-CTL	J200029	G	HC	no	HC	65.8	M	33	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	12	0	NA	NA	0	0	0	2	0
+T2030-J200029-CTL	J200029	T	HC	no	HC	65.8	M	33	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	12	0	NA	NA	0	0	0	2	0
+T2032-J200032-CTL	J200032	T	HC	no	HC	34.2	M	26.5	White	Hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	11	1	7007	14000	0	0	0	0	0
+GL098-J200086-CTL	J200086	G	HC	no	HC	31.6	F	28.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	6	1	603	1200	1	1	1	2	0
+T2098-J200086-CTL	J200086	T	HC	no	HC	31.6	F	28.3	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	none	none	none	none	6	1	603	1200	1	1	1	2	0
+NL016-J200019-MS	J200019	N	RRMS	no	Treated	34.5	F	26.4	White	Not hispanic or latino	N	anti-CD52	3.5	4.5	0	NONE	0	none	none	none	none	9	1	12006	30000	0	0	0	0	0
+NL018-J200021-MS	J200021	N	RRMS	no	Treated	33.6	F	32.6	White	Not hispanic or latino	N	DMF	0	4.6	0	NONE	0	none	none	none	none	5	1	5001	10000	0	0	0	1	0
+NL061-J200063-MS	J200063	N	RRMS	no	Treated	53.4	M	23.5	White	Not hispanic or latino	N	Interferon	2.5	29.4	0	NONE	0	none	none	none	none	9	1	8004	20000	0	0	0	4	1
+NL097-J200085-CTL	J200085	N	HC	no	HC	50.8	F	22.4	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	oral_surgery	oral_surgery	none	none	13	1	10005	25000	0	0	0	2	0
+GL097-J200085-CTL	J200085	G	HC	no	HC	50.8	F	22.4	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	oral_surgery	oral_surgery	none	none	13	1	10005	25000	0	0	0	2	0
+T2097-J200085-CTL	J200085	T	HC	no	HC	50.8	F	22.4	White	Not hispanic or latino	NA	HC	NA	NA	0	NONE	0	oral_surgery	oral_surgery	none	none	13	1	10005	25000	0	0	0	2	0
+GL021-J200026-MS	J200026	G	RRMS	no	Treated	27.2	F	20	White	Not hispanic or latino	N	anti-CD20	1	12.2	0	NONE	0	sealants	sealants	none	none	13	1	4004	8000	0	0	0	2	0
+T2021-J200026-MS	J200026	T	RRMS	no	Treated	27.2	F	20	White	Not hispanic or latino	N	anti-CD20	1	12.2	0	NONE	0	sealants	sealants	none	none	13	1	4004	8000	0	0	0	2	0
+NL021-J200026-MS	J200026	N	RRMS	no	Treated	27.2	F	20	White	Not hispanic or latino	N	anti-CD20	1	12.2	0	NONE	0	sealants	sealants	none	none	13	1	4004	8000	0	0	0	2	0
+GL022-J200027-MS	J200027	G	RRMS	no	Treated	53.7	F	20.4	White	Not hispanic or latino	N	DMF	3	23.7	0	NONE	0	teeth_whitening	teeth_whitening	none	none	12	0	NA	NA	0	0	0	2	0
+T2022-J200027-MS	J200027	T	RRMS	no	Treated	53.7	F	20.4	White	Not hispanic or latino	N	DMF	3	23.7	0	NONE	0	teeth_whitening	teeth_whitening	none	none	12	0	NA	NA	0	0	0	2	0
+NL022-J200027-MS	J200027	N	RRMS	no	Treated	53.7	F	20.4	White	Not hispanic or latino	N	DMF	3	23.7	0	NONE	0	teeth_whitening	teeth_whitening	none	none	12	0	NA	NA	0	0	0	2	0
